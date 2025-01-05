@@ -25,7 +25,7 @@ license=(
 )
 depends=(
   "evm-wallet"
-  "gpg"
+  "gnupg"
   "libcrash-bash"
 )
 optdepends=()
