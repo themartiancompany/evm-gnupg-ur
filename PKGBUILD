@@ -44,6 +44,7 @@ license=(
 )
 depends=(
   "evm-wallet"
+  "evm-openpgp-keyserver"
   "gnupg"
   "libcrash-bash"
 )
