@@ -1743,7 +1743,7 @@ jobs:
               --branch \
                 "main" \
               --single-branch \
-              "https://github.com/themartiancompany/reallymakepkg-src" \
+              "https://github.com/themartiancompany/reallymakepkg" \
               "${HOME}/reallymakepkg-src" || \
           true
           cd \
