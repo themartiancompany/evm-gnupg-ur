@@ -897,7 +897,7 @@ jobs:
             ${{ github.event.release.upload_url }}
             # ${{ steps.create_release.outputs.upload_url }}
           asset_path:
-            "gnupg-${{ steps.version.outputs.version }}-any.pkg.tar.xz"
+            "evm-gnupg-${{ steps.version.outputs.version }}-any.pkg.tar.xz"
           asset_name:
             "dogeos-android-evm-gnupg-${{ steps.version.outputs.version }}-any.pkg.tar.xz"
           asset_content_type:
