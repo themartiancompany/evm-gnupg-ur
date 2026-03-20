@@ -666,9 +666,10 @@ jobs:
       - name:
           Install docutils.
         run: |
-          pip \
-            install \
-              "docutils"
+          /entrypoint.sh \
+            pip \
+              install \
+                "docutils"
       - name:
           Read pkgbase.
         run: |
@@ -898,7 +899,7 @@ jobs:
           asset_path:
             "gnupg-${{ steps.version.outputs.version }}-any.pkg.tar.xz"
           asset_name:
-            "gnupg-${{ steps.version.outputs.version }}-any.pkg.tar.xz"
+            "dogeos-android-evm-gnupg-${{ steps.version.outputs.version }}-any.pkg.tar.xz"
           asset_content_type:
             application/gzip
   arch_release:
