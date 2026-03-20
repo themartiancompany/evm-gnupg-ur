@@ -79,7 +79,7 @@ _crash_bash_pkgver="0.0.0.0.0.1.1.1.1"
 _evm_wallet_pkgver="0.0.0.0.0.0.0.0.0.0.1.1.1"
 _evm_openpgp_keyserver_pkgver="0.0.0.0.0.0.0.0.0.0.1"
 _commit="92bbe0543214192b209bc5e9c24fb11d4a04755e"
-pkgrel=12
+pkgrel=13
 _pkgdesc=(
   "GNUPG wrapper to manage"
   "Ethereum Virtual Machine"
